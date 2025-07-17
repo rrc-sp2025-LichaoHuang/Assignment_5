@@ -10,10 +10,12 @@ Example:
     python -m unittest tests/test_chatbot.py
 """
 
-vfrom unittest import TestCase, main
+from unittest import TestCase, main
 from unittest.mock import patch
-from src.chatbot import ACCOUNTS, VALID_TASKS
+from src.chatbot. import ACCOUNTS, VALID_TASKS, get_account_number
 
-__author__ = ""
-__version__ = ""
+__author__ = "Lichao Huang"
+__version__ = "1.0.0"
 __credits__ = "COMP-1327 Faculty"
+
+
